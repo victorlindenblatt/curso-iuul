@@ -1,0 +1,116 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+ }
+ 
+ body{
+   margin: 0;
+   background-color: #FFFFFF;
+
+ }
+ 
+ .logo-img{
+    width: 2vw;
+ }
+ 
+ .padding{
+    padding: 5vh 10vw;
+ }
+ 
+ *MENU*/
+ header{
+   background-color: #FFFFFF;
+   width: 100%;
+   padding: 100;
+ }
+ 
+ .container{
+   max-width: 1080px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+ }
+ 
+
+ .logo > img{
+   width: 50px;
+ }
+ 
+ .menu{
+   width: 50%;
+ }
+ 
+ .menu , nav,  a{
+   color:  #8015E8;
+   text-decoration: none;
+   padding-right: 30px;
+   font-size: 18px;
+ }
+ 
+ .menu, a:hover{
+    color: #F47141;
+ }
+ 
+ 
+ .abc{
+    color: #FFFFFF;
+ }
+ 
+   *seção 1*/
+ 
+ .conteudo{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+ }
+ 
+ .conteudo-principal {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .conteudo-principal-titulo{
+   font-weight: 600;
+   font-size: 50px;
+   color: #8015E8;
+ }
+ 
+ .conteudo-principal-texto{
+   font-weight: 300;
+   font-size: 24px;
+   color: black;
+ }
+ 
+ 
+ 
+ *secao3*/
+
+ .conteudo3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+ }
+ 
+ .conteudo-secao3 {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .conteudo-secao3-titulo{
+    font-weight: 600;
+    font-size: 50px;
+    color: #8015E8;
+ }
+ 
+ .conteudo-secao3-texto{
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+ }
